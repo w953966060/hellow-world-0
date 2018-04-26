@@ -10,7 +10,7 @@ body {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(../img/4453b6c9a9d10964253e16cca587ac71.jpg);
+	background: url(../img/001.jpg);
 	background-position: center 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -38,13 +38,15 @@ nav ul {
 	height: 100%;
 }
 nav li{
-	width: 18%;
+	display: inline-block;
 	height: 100%;
+	width: 18%;
 	list-style: none;
 	float: left;
 	margin-left: 2%;
 	background:rgba(255,255,255,0.8) ;
 	text-align: center;
+    vertical-align: middle;
 }
 nav li .item {
 	text-decoration: none;

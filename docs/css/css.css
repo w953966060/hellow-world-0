@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {margin: 0;
+	padding: 0;}
+body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/4453b6c9a9d10964253e16cca587ac71.jpg);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	/* 兼容Webkit内核浏览器如Chrome和Safari */
+	-o-background-size: cover;
+	/* 兼容Opera */
+	zoom: 1;
+}
+
+.page {position: fixed;
+    top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.3);
+	width: 100%;
+	height: 100%;
+}
+nav {
+	width: 40%;
+	height: 6%;
+	margin: 0 auto;
+}
+nav ul {
+	height: 100%;
+}
+nav li{
+	width: 18%;
+	height: 100%;
+	list-style: none;
+	float: left;
+	margin-left: 2%;
+	background:rgba(255,255,255,0.8) ;
+	text-align: center;
+}
+nav li .item {
+	text-decoration: none;
+}
+.box {
+	background: rgba(255,255,255,0.6) ;
+	height: 40%;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 1%;
+}

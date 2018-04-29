@@ -99,6 +99,7 @@ nav ul {
 	margin: 0 auto;
 	margin-top: 1%;
 	box-shadow: 0 0 10px #f00;
+	transition: all 0.5s;
 }
 
 .box:hover {
